@@ -1,0 +1,56 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Flask File Uploads Tutorial</h1>
+
+    <form method='POST' enctype='multipart/form-data'>
+        {{form.hidden_tag()}}
+        {{form.file()}}
+        {{form.submit()}}
+    </form>
+   
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Detector</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+		}
+		
+		.file-upload {
+			display: inline-block;
+			background-color: #f5f5f5;
+			padding: 10px;
+			border-radius: 5px;
+			cursor: pointer;
+			color: #444;
+		}
+		
+		.file-upload input[type=file] {
+			display: none;
+		}
+	</style>
+</head>
+<body>
+    <center>
+	<h1>Suspicious Activity Detector</h1>
+	<form method='POST' enctype='multipart/form-data'>
+        {{form.hidden_tag()}}
+        {{form.file()}}
+        {{form.submit()}}
+    </form>
+</center>
+</body>
+</html>
+
